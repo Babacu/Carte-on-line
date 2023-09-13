@@ -1,0 +1,45 @@
+
+#coperta {
+
+width: 50%;
+background-image: url(./asset/T3.jpg);
+border-radius: 10px;
+border-color: aqua;
+border-style: double;
+margin-left: auto;
+margin-right: auto;
+padding-right: 3cm;
+padding-left: 3cm;
+}
+#eticheta {
+width: 1000px;
+ background-image: url(./asset/T4.jpg); 
+ border-radius: 2em;
+}
+#poza {
+
+margin-left: auto;
+margin-right: auto;
+    width: 1000px;
+}
+
+#autor {
+    color: red;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 4em;
+
+
+}
+
+#carta {
+font-family:serif ;
+ font-size: 4em;
+ font-weight: 900;
+
+}
+#carta {
+height: 200px;
+width: 1000px;
+border-radius: 15px;
+overflow: hidden;
+}

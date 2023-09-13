@@ -1,0 +1,218 @@
+
+.Tapet {
+
+display: flow-root;
+margin-top: -1950px
+
+}
+
+* {
+
+background-image:url(./asset/T1.png) ;
+
+}
+em  {
+
+font-size: 2em;
+color: blue;
+margin-left: 750;
+}
+@media screen and (min-width: 780px) and (max-width: 1999px){
+.Titlu {
+
+color:red;
+font-family:'Times New Roman', Times, serif ;
+font-weight: 900;
+margin-top: -1900;
+margin-left: 720px;
+font-size: 2em;
+}
+
+em  {
+
+font-size: 2em;
+color: blue;
+margin-left: 750;
+}
+
+.Linie {
+
+    width: 50%;
+    color: chocolate;
+    /*/shape-margin: 3px;*/
+    size: 7px;
+    
+}
+
+
+
+.Strofa {
+
+display: block;
+position: relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+font-weight: 900;
+color: black ;
+z-index: 4;
+background-image: url(./asset/T2.jpg) ;
+padding:5px ;
+border-radius: 5px;
+}
+
+.Poezie {
+
+box-sizing: border-box;
+display: inline-block;
+position: relative;    
+background-image: url(./asset/T4.jpg);
+margin-left: 700px;
+margin-right: auto;
+padding: 50px;
+border-radius: 20px;
+
+}
+
+.Cuprins {
+display: block;
+background-color: aliceblue;
+color: blue;
+font-size: xx-large;
+width: 200px;
+margin-left: 1000px;
+}
+
+.Next {
+display: block;    
+margin-top: 2px;
+background-color: aliceblue;
+color: blue;
+font-size: xx-large;
+width: 200px;
+margin-left: 1000px;
+}
+}
+@media screen and (max-width: 1320px) {
+   .Titlu {
+
+/*color:red;
+font-family:'Times New Roman', Times, serif ;
+font-weight: 900;
+margin-top: -1900;*/
+margin-left: 10px;
+font-size: 3em;
+} 
+.Strofa {
+
+ 
+box-sizing: border-box;   
+
+display: block;
+position: relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+font-weight: 900;
+color: black ;
+z-index: 4;
+width:700px;
+background-image: url(./asset/T2.jpg) ;
+padding:5px ;
+border-radius: 5px;
+}
+.Poezie {
+
+box-sizing: border-box;
+display: inline-block;
+position: relative;  
+width:100%;  
+background-image: url(./asset/T4.jpg);
+margin-left: 10px;
+margin-right: auto;
+padding: 50px;
+border-radius: 20px;
+
+}
+}
+
+@media screen and (max-width: 320px )and (max-width: 780px){
+    .Titlu {
+
+color:red;
+font-family:'Times New Roman', Times, serif ;
+font-weight: 900;
+margin-top: -1900;
+margin-left: auto;
+font-size: 3em;
+}
+.Linie {
+
+    width: 50%;
+    color: chocolate;
+    /*/shape-margin: 3px;*/
+    size: 7px;
+    
+}
+.Strofa {
+box-sizing: border-box ;
+display: block;
+position: relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+font-weight: 500;
+color: black ;
+width:320px;
+z-index: 4;
+background-image: url(./asset/T2.jpg) ;
+padding:5px ;
+border-radius: 5px;
+}
+
+.Poezie {
+
+box-sizing: border-box;
+display: inline-block;
+position: relative;  
+width:100%; 
+background-image: url(./asset/T4.jpg);
+margin-left: apx;
+margin-right: auto;
+padding: 50px;
+border-radius: 20px;
+
+}
+
+.Cuprins {
+display: block;
+background-color: aliceblue;
+color: blue;
+font-size: xx-large;
+width: 200px;
+margin-left:auto;
+}
+
+.Next {
+display: block;    
+margin-top: 2px;
+background-color: aliceblue;
+color: blue;
+font-size: xx-large;
+width: 200px;
+margin-left: auto;
+}
+}
+  
+.Fundal {
+
+background-image:  url(./asset/Alt\ ziar.png);
+width:50%;
+height:850px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+}
+
+h1 {
+
+font-size: 5em;
+color:red
+}
